@@ -1,0 +1,124 @@
+/* Global Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50; /* Soft dark green for better readability */
+  background: linear-gradient(to right, #d4edda, #a8e6cf); /* Light pastel green gradient */
+}
+
+/* Homepage Container */
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #2e7d32; /* Darker Green for contrast */
+  background: #ffffff; /* Solid White for Clear Visibility */
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 80%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Description Box */
+.description {
+  background: #ffffff;
+  text-align: center;
+  padding: 15px;
+  margin: 10px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.description p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #2c3e50; /* Dark Green for Readability */
+}
+
+/* Dashboard Section */
+.dashboard {
+  background: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  width: 85%;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Dashboard Title */
+.dashboard h2 {
+  margin-bottom: 20px;
+  font-size: 26px;
+  color: #2e7d32; /* Dark Green */
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+
+/* Grid Items (Features) */
+.grid-item {
+  background: #e8f5e9; /* Light Green */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Icons inside Grid Items */
+.grid-item svg {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #388e3c; /* Medium Green for contrast */
+}
+
+/* Grid Item Hover Effect */
+.grid-item:hover {
+  background: #c8e6c9; /* Slightly Darker Green */
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+/* Logout Button */
+.logout-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(45deg, #66bb6a, #43a047);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Logout Hover Effect */
+.logout-button:hover {
+  background: linear-gradient(45deg, #43a047, #388e3c);
+  transform: scale(1.05);
+  transition: 0.3s;
+}

@@ -1,0 +1,85 @@
+/* Full-page background */
+.about-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: url("/public/Images/about_bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Glassmorphism Overlay (Improved Contrast) */
+.overlay {
+    background: rgba(0, 0, 0, 0.4); /* Darker transparency */
+    backdrop-filter: blur(12px); /* Slightly stronger blur */
+    -webkit-backdrop-filter: blur(12px);
+    padding: 50px;
+    border-radius: 15px;
+    color: #ffffff; /* White text */
+    max-width: 80%;
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Section Styling */
+h1 {
+    font-size: 38px;
+    margin-bottom: 15px;
+    color: #f8e112; /* Yellow for emphasis */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8); /* Stronger shadow */
+}
+
+p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    color: #e0e0e0; /* Light gray for readability */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+/* Features and Team Sections */
+.features-section, .team-section, .guides-section {
+    margin-top: 20px;
+}
+
+.features-section h2,
+.team-section h2,
+.guides-section h2 {
+    color: #f8e112;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+/* List Styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    margin: 8px 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+/* Back Button */
+.back-button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(248, 225, 18, 1);
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.back-button:hover {
+    background: rgba(212, 193, 13, 1);
+    transform: scale(1.05);
+}
