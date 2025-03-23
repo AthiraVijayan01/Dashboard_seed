@@ -12,12 +12,12 @@ const Header = () => {
                 userLoggedIn
                     ?
                     <>
-                        <button onClick={() => { doSignOut().then(() => { navigate('/login') }) }} className='text-sm text-blue-600 underline'>Logout</button>
+                        <button onClick={() => { doSignOut().then(() => { navigate('/login') }) }} className="px-4 py-2 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 ease-in-out">Logout  </button>
                     </>
                     :
                     <>
-                        <Link className='text-sm text-blue-600 underline' to={'/login'}>Login</Link>
-                        <Link className='text-sm text-blue-600 underline' to={'/register'}>Register New Account</Link>
+                        <Link className="px-4 py-2 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 ease-in-out" to={'/login'}>Login</Link>
+                        <Link className="px-4 py-2 text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 ease-in-out" to={'/register'}>Register New Account</Link>
                     </>
             }
 

@@ -42,7 +42,7 @@ const Homepage = () => {
                 <div className="grid-container">
                     <div className="grid-item" onClick={handleUserManagementClick}><FaUsers /> User Management</div>
                     <div className="grid-item" onClick={handleSensorMonitoringClick}><FaDatabase /> Sensor Monitoring</div> 
-                    <div className="grid-item"><FaLeaf /> Crop & Fertilizer</div>
+
                     <div className="grid-item"><FaChartBar /> Reports & Analytics</div>
                     <div className="grid-item" onClick={handleAlertsClick}><FaBell /> Alerts & Notifications</div> 
                     <div className="grid-item" onClick={handleAboutClick}><FaTools /> About</div> 
